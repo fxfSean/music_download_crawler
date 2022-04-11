@@ -1,32 +1,7 @@
-import urllib
-from urllib.parse import unquote
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
-import re
-import requests
-import json
-import os
-
-from china_golden import china_golden
-from china_top import china_top
-from create_top import create_top
-from europe_new_songs import europe_new_songs
-from europe_top import europe_songs
-from farm_songs import farm_songs
-from hongkong_top import hongkong_top
-from hot_songs import new_songs
 
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-
-from japan_top import japan_top
-from old_school_songs import old_school_songs
-from rock_songs import rock_songs
-from south_korea_top import south_korea_top
-from speak_songs import speak_songs
-from speed_up_songs import speed_up_songs
 
 
 def drive():
